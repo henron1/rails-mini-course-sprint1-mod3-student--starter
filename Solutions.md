@@ -1,6 +1,6 @@
 1. Rails routes /task to the new action in the Task controller.
 2. Rails routes /users to the index action in the Users controller. 
-3. GET /tasks/new ---> tasks#new controller --> model --> db --> controler --> view ---> return an HTML form for creating a new task
+3. GET /tasks/new ---> tasks#new Router --> controller --> model --> db --> controler --> view ---> return an HTML form for creating a new task
 4. users_controller.rb
 5.  Index    GET ALL --> renders page and returns all
     Show    GET/ID --> renders page and returns by Id
