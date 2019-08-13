@@ -9,3 +9,13 @@
     Create  POST --> creates new entry
     Update  PATCH or PUT --> updates entry in the db
     Destroy DELETE --> deletes entry in db
+
+
+Commands to create a new User!
+rails console 
+User.connect
+User
+first_user = User.create
+second_user = User.create
+first_user.update(name: "John Doe")
+second_user.update(name: "Jane Doe")
